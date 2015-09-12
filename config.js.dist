@@ -1,0 +1,12 @@
+module.exports = {
+    connection_options: { url: 'amqp://localhost' },
+    source: {
+        queue: 'my-source-queue',
+        options: { durable: true, autoDelete: false, noDeclare: true }
+    },
+    destination: {
+        exchange: '',
+        routing_key: 'my-dest-queue',
+        options: { type: 'direct', confirm: true }
+    },
+};

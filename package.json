@@ -1,0 +1,15 @@
+{
+  "name": "amqp-throttle",
+  "version": "0.0.1",
+  "description": "AMQP throttling interceptor (PROOF OF CONCEPT!)",
+  "main": "throttle.js",
+  "dependencies": {
+    "amqp": "^0.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakub Husak",
+  "license": "unlicense"
+}
